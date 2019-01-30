@@ -1,0 +1,33 @@
+{
+    "name": "adre/laravel-paydibs",
+    "description": "Paydibs's package for Laravel",
+    "keywords": ["laravel", "package", "paydibs"],
+    "license": "MIT",
+    "homepage": "https://www.theadx.net",
+    "support": {
+        "issues": "https://github.com/adxicible/laravel-paydibs/issues",
+        "source": "https://github.com/adxicible/laravel-paydibs"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "*"
+    },
+	"require-dev" : {
+        "phpunit/phpunit": "^7.5"
+	},
+    "authors": [
+        {
+            "name": "Adrian Nungka",
+            "email": "adrian@theadx.net"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Paydibs\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [ "tests/PaydibsTest.php" ]
+	},
+    "minimum-stability": "dev"
+}
